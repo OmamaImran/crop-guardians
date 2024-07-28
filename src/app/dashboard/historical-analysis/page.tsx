@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { TbChartHistogram } from "react-icons/tb";
 
-export default function projections() {
+export default function Projections() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const toggleModalOpen= ()=>{
     setIsModalOpen(!isModalOpen)
