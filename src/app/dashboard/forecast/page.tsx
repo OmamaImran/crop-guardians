@@ -33,7 +33,7 @@ export default function projections() {
                 <div className="p-2 w-1/2 flex justify-center items-center gap-3">
                 <LineChart heading="Future Projections" labels={forecast_months} datasets={forecast_indices}/>
                 </div>
-                <AppCard cardName="Forecasted Yeild for 2024" cardValue="720 tons"/>
+                <AppCard cardName="Forecasted Yield for 2024" cardValue="720 tons"/>
             </div>
             <div className="flex flex-col items-center gap-5">
                 <div className="flex items-center gap-2 py-2 border-b border-t border-gray-300">

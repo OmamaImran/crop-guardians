@@ -50,9 +50,9 @@ export default function Dashboard() {
           </div>
           <div className="flex justify-between">
             <AppCard cardName="Yield Prediction 2024"  cardValue="720tons"/>
-            <AppCard cardName="Yield Prediction 2025"  cardValue="720tons"/>
-            <AppCard cardName="Yield Prediction 2026"  cardValue="740tons"/>
-            <AppCard cardName="Yield Prediction 2027"  cardValue="740tons"/>
+            <AppCard cardName="Yield Prediction 2025"  cardValue="735tons"/>
+            <AppCard cardName="Yield Prediction 2026"  cardValue="750tons"/>
+            <AppCard cardName="Yield Prediction 2027"  cardValue="760tons"/>
           </div>
         </div>
       </div>

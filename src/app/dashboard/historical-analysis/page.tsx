@@ -33,14 +33,16 @@ export default function Projections() {
           <div className="flex justify-center">
             <button onClick={toggleModalOpen} className="rounded-l-full rounded-r-full px-4 py-2 text-white bg-green-600 hover:bg-green-700">View Detailed Analysis</button>
           </div>
-        <div className="flex gap-5">
-            <LineChart heading="NDVI" labels={monthLabels} datasets={HISTORICAL_NDVI}/>
-            <LineChart heading="NDRE" labels={monthLabels} datasets={HISTORICAL_NDRE}/>
-            
-        </div>
-        <div className="flex gap-5">
-            <LineChart heading="GNDVI" labels={monthLabels} datasets={HISTORICAL_GNDVI}/>
-            <LineChart  heading="MSAVI" labels={monthLabels} datasets={HISTORICAL_MSAVI}/>
+        <div className="w-full flex flex-col gap-5">
+          <div className="flex gap-5">
+              <LineChart heading="NDVI" labels={monthLabels} datasets={HISTORICAL_NDVI}/>
+              <LineChart heading="NDRE" labels={monthLabels} datasets={HISTORICAL_NDRE}/>
+          
+          </div>
+          <div className="flex gap-5">
+              <LineChart heading="GNDVI" labels={monthLabels} datasets={HISTORICAL_GNDVI}/>
+              <LineChart  heading="MSAVI" labels={monthLabels} datasets={HISTORICAL_MSAVI}/>
+          </div>
         </div>
         </div>
       </div>
